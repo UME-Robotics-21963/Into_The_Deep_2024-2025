@@ -1,9 +1,9 @@
 package org.firstinspires.ftc.teamcode;
 
-import com.qualcomm.robotcore.eventloop.opmode.OpMode;
-import com.qualcomm.robotcore.hardware.Gamepad;
+import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
-public class TeleOp extends Hardware {
+@TeleOp(name = "BasicTeleOp", group = "TeleOp")
+public class BasicTeleOp extends Hardware {
     @Override
     public void init() {
         Initialize(hardwareMap);
