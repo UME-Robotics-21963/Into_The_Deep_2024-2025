@@ -5,7 +5,9 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorSimple;
 
 public class Help1 extends OpMode {
-    private static DcMotor _arm;
+
+
+    public static DcMotor _arm;
     public static void initialize() {
         //Help2.Move();
         //Help2.tnp = 10;
