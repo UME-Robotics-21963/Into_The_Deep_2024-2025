@@ -19,7 +19,7 @@ public class BasicTeleOp extends Hardware {
             armPower = 1;
         if(gamepad1.left_trigger != 0)
             armPower = -1;
-        if(gamepad1.right_trigger + gamepad1.left_trigger != 0)
+        if(gamepad1.right_trigger + gamepad1.left_trigger == 0)
             armPower = 0;
 
 

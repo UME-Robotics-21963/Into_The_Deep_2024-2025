@@ -21,7 +21,7 @@ public abstract class Hardware extends OpMode {
         // Sets the direction of motor
         rightSide.setDirection(DcMotor.Direction.REVERSE);
         leftSide.setDirection(DcMotor.Direction.FORWARD);
-        arm.setDirection(DcMotor.Direction.FORWARD);
+        arm.setDirection(DcMotor.Direction.REVERSE);
 
 
 
