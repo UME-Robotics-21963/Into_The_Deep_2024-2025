@@ -2,7 +2,7 @@ package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 
-@Autonomous(name = "Score and Park", group = "Autonomous")
+@Autonomous(name = "Park", group = "Autonomous")
 public class Autonomous_Park extends Hardware {
     @Override
     public void runOpMode() throws InterruptedException {
