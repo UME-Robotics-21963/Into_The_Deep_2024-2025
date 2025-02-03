@@ -7,6 +7,7 @@ public class Autonomous_Score_Park extends Hardware {
     @Override
     public void runOpMode() throws InterruptedException {
         Initialize(hardwareMap);
+        waitForStart();
         while (opModeIsActive()) {
             BasicMovement(.5, 0, 1.5);
             BasicMovement(-.5, 0, 4);

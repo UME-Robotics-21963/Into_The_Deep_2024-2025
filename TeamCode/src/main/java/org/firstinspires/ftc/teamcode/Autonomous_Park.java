@@ -7,6 +7,8 @@ public class Autonomous_Park extends Hardware {
     @Override
     public void runOpMode() throws InterruptedException {
         Initialize(hardwareMap);
+
+        waitForStart();
         while (opModeIsActive()) {
             BasicMovement(-.5, 0, 2);
         }

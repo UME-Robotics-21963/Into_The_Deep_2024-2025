@@ -11,7 +11,7 @@ import com.qualcomm.robotcore.hardware.Servo;
 // A required section to write all of your code
 public abstract class Hardware extends LinearOpMode {
     // Makes an instance of DCMotor to create copies
-    public static DcMotor frontRight,backRight,frontLeft,backLeft ,arm;
+    public static DcMotor frontRight,backRight,frontLeft,backLeft, arm;
     public static CRServo armCatcher;
     //
     //public static DcMotor arm;
@@ -31,8 +31,8 @@ public abstract class Hardware extends LinearOpMode {
         // Sets the direction of motor
         frontRight.setDirection(DcMotor.Direction.FORWARD);
         backRight.setDirection(DcMotor.Direction.FORWARD);
-        frontLeft.setDirection(DcMotor.Direction.FORWARD);
-        backLeft.setDirection(DcMotor.Direction.FORWARD);
+        frontLeft.setDirection(DcMotor.Direction.REVERSE);
+        backLeft.setDirection(DcMotor.Direction.REVERSE);
         arm.setDirection(DcMotor.Direction.FORWARD);
 
 
